@@ -103,6 +103,8 @@ gh api -X POST repos/<username>/<repo>/pages -f "source[branch]=main" -f "source
 
 ## 🛠️ เทคโนโลยี
 
+[![tech stack ของ MyDay](docs/diagrams/stack.png)](docs/diagrams/stack.png)
+
 - Vanilla HTML/CSS/JavaScript (ไม่ใช้ framework ไม่ต้อง build)
 - localStorage สำหรับเก็บข้อมูล
 - Web App Manifest + Service Worker (PWA)
@@ -127,7 +129,8 @@ MyDay/
 ├── docs/
 │   ├── plan.md            # SDLC Plan
 │   ├── tasks.md           # Task breakdown
-│   └── test-results.md    # ผลการทดสอบ
+│   ├── test-results.md    # ผลการทดสอบ
+│   └── diagrams/          # แผนภาพ tech stack (stack.html ต้นฉบับ, stack.png)
 └── README.md
 ```
 
